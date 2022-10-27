@@ -67,7 +67,7 @@
 #img {
     display: block;
     max-width: 200px;
-    border-radius: 50%!important;
+    border-radius: 50%!;
   }
 .myname{
     padding: 10px;
