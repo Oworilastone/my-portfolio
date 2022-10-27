@@ -1,9 +1,9 @@
 /* Custom properties/variables  */
 :root {
-    --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d;
-    --main-gray: #303841;
+  --main-orange: #F15412;
+  --main-maroon: #733C3C;
+  --main-cyan: #1B2430;
+  --main-green: #2C3639;
   }
   
   /* Base reset */
@@ -73,7 +73,7 @@
     font-size: 1.8rem; /* 18px */
     font-weight: 400;
     line-height: 1.4;
-    color: var(--main-white);
+    color: var(--main-orange);
   }
   
   h1,
@@ -97,12 +97,23 @@
   
   a {
     text-decoration: none;
-    color: var(--main-white);
+    color: var(--main-orange);
   }
   
-  img {
+  .img {
     display: block;
-    width: 100%;
+  }
+
+  #img {
+    display: block;
+    max-width: 200px;
+    border-radius: 50%!important;
+  }
+
+  .myname{
+    padding: 10px;
+    padding-top: 30px;
+    color: var(--main-maroon)
   }
   
   /* nav */
@@ -114,7 +125,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
+    background: var(--main-maroon);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -141,7 +152,7 @@
   }
   
   .nav-list a:hover {
-    background: var(--main-blue);
+    background: var(--main-cyan);
   }
   
   /* Welcome section */
@@ -161,7 +172,7 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-red);
+    color: var(--main-maroon);
   }
   
   /* Projects section */
@@ -169,13 +180,13 @@
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
-    background: var(--main-blue);
+    background: var(--main-cyan);
   }
   
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.2rem solid var(--main-orange);
   }
   
   @media (max-width: 28.75em) {
@@ -189,7 +200,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
-    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -206,18 +216,18 @@
   }
   
   .project {
-    background: var(--main-gray);
+    background: var(--main-green);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
   }
   
   .code {
-    color: var(--main-gray);
+    color: var(--main-green);
     transition: color 0.3s ease-out;
   }
   
   .project:hover .code {
-    color: #ff7f50;
+    color: #b41919;
   }
   
   .project-image {
@@ -239,12 +249,12 @@
   
   .btn-show-all {
     font-size: 2rem;
-    background: var(--main-gray);
+    background: var(--main-green);
     transition: background 0.3s ease-out;
   }
   
   .btn-show-all:hover {
-    background: var(--main-red);
+    background: var(--main-maroon);
   }
   
   .btn-show-all:hover > i {
@@ -268,7 +278,7 @@
     width: 100%;
     height: 80vh;
     padding: 0 2rem;
-    background: var(--main-gray);
+    background: var(--main-green);
   }
   
   .contact-section-header > h2 {
@@ -311,8 +321,8 @@
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--main-gray);
-    border-top: 4px solid var(--main-red);
+    background: var(--main-green);
+    border-top: 4px solid var(--main-maroon);
   }
   
   footer > p {
@@ -328,5 +338,9 @@
       flex-direction: column;
       text-align: center;
     }
+  }
+  .myimage{
+    display: flex;
+    flex-direction: row;
   }
   
