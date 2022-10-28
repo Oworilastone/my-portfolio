@@ -35,7 +35,7 @@
     }
   }
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'candara';
     font-size: 3rem; 
     font-weight: 400;
     line-height: 1.4;
@@ -43,7 +43,7 @@
   }
   h1,
   h2 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Avanta Garde';
     font-weight: 700;
     text-align: center;
   }
@@ -67,7 +67,7 @@
 #img {
     display: block;
     max-width: 200px;
-    border-radius: 50%!;
+    border-radius: 50%;
   }
 .myname{
     padding: 10px;
@@ -82,7 +82,7 @@
     left: 0;
     width: 100%;
     background: var(--main-maroon);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 0 rgba(145, 18, 18, 0.4);
     z-index: 10;
   }
   .nav-list {
